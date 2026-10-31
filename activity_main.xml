@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+<TextView
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="MULTI UNIT CONVERTER"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
+    
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Convert Length, Weight and Temperature"
+    android:textSize="14sp"/>    
+         
+<EditText
+    android:id="@+id/etmeter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Value"
+    android:textSize="18sp"/>
+    
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="📏 Length Converter"
+    android:textSize="20sp"
+    android:textStyle="bold"/>   
+
+<Button
+    android:id="@+id/btnMeterToKm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Meter → KM"
+    android:layout_marginTop="10dp"/>
+
+<Button
+    android:id="@+id/btnKmToMeter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="KM → Meter"
+    android:layout_marginTop="10dp"/>
+
+<Button
+    android:id="@+id/btnCmToMeter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CM → Meter"
+    android:layout_marginTop="10dp"/>
+    
+ <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="⚖ Weight Converter"
+    android:textSize="20sp"
+    android:textStyle="bold"/>   
+    
+<Button
+    android:id="@+id/btnKgToGram"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="KG → Gram"
+    android:layout_marginTop="10dp"/>
+    
+ <Button
+    android:id="@+id/btnGramToKg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Gram → KG" 
+    android:layout_marginTop="10dp"/>
+ 
+ <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="🌡 Temperature Converter"
+    android:textSize="20sp"
+    android:textStyle="bold"/>
+    
+ <Button
+    android:id="@+id/btnCToF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Celsius → Fahrenheit"
+    android:layout_marginTop="10dp"/>
+    
+<Button
+    android:id="@+id/btnFToC"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Fahrenheit → Celsius"
+    android:layout_marginTop="10dp"/>
+   
+<TextView
+    android:id="@+id/txtResult"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Result : ........................."
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:padding="12dp"
+    android:layout_marginTop="20dp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="----------------Clear Input------------------"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_marginTop="30dp"/>
+    
+<Button
+    android:id="@+id/btnClear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Clear"
+    android:layout_marginTop="10dp"/>
+    
+</ScrollView> 
+
+</LinearLayout>  
+
